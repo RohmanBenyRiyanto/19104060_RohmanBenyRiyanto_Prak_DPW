@@ -1,3 +1,8 @@
-#Tugas Praktikum Pertemuan 2
+# Praktikum Desain-dan-Pemrograman-Web
 
-##Membuat Website Portofolio
+| NAMA | NIM | KELAS
+|--|--|--|
+| Rohman Beny Riyanto  | 19104060 | 03 SE B
+
+### Screenshot Tampilan Website
+![Portofolio Website](https://user-images.githubusercontent.com/72520643/139182926-ef110e9c-662a-4363-b94a-86b96ecb83fc.png)
