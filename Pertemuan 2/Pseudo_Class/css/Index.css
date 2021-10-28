@@ -1,0 +1,37 @@
+button{
+    background: transparent;
+    border: 1px solid blueviolet;
+    border-radius: 5cm;
+    padding: 10px;
+}
+
+.button1:hover{
+    background: blueviolet;
+    color: white;
+}
+
+.button1:active{
+    background: purple;
+    border: 1px solid purple;
+    color: white;
+}
+
+.button2:hover{
+    background: blue;
+    border: 1px solid blueviolet;
+    color: white;
+}
+
+.button2:active{
+    background: yellow;
+    border: 1px solid yellow;
+    color: white;
+}
+
+#aLink:link{
+    color:blue;
+}
+
+#aLink:visited{
+    color: gray;
+}

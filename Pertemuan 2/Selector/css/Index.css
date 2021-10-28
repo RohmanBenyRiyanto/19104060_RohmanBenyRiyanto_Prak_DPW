@@ -1,0 +1,28 @@
+/* Class */
+.head{
+    background: red;
+    font-size: 2em;
+}
+
+/* ID */
+#odd{
+    background: yellow;
+    font-size: 0.8em;
+}
+
+#event{
+    background: blue;
+    font-size: 0.8em;
+}
+
+/* Element : css element default */
+table{
+    border: 5px solid black ;
+}
+
+tr{
+    background: green;
+    font-size: 0.9em;
+    text-align: center;
+
+}
