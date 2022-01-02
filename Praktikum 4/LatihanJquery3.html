@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Latihan JQuery 3</title>
+</head>
+<body>
+    <label for="bil1">Bilangan 1</label>
+    <input type="number" name="bil1" id="bil1">
+
+    <label for="bil2">Bilangan 2</label>
+    <input type="number" name="bil2" id="bil2">
+
+    <input type="button" value="tambah" id="btntambah">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script>
+        $('#btnTambah').on('click', function(){
+            let bil1 = $('#bil1').val();
+            let bil2 = $('#bil2').val();
+            let hasil = parseInt(bil1) + parseInt(bil2);
+            alert('Hasil :' + hasil)
+        })
+    </script>
+</body>
+</html>

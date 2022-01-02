@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Latihan JQuery 4</title>
+
+    <style>
+        .change{
+            color: blueviolet;
+            font-size: 40px;
+        }
+    </style>
+
+</head>
+<body>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequuntur accusamus nulla incidunt consequatur ipsam! Iure placeat praesentium tempore cum laboriosam ut veritatis, doloribus, nisi adipisci sint at voluptates et recusandae?</p>
+    <button> Ubah Warna </button>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script>
+        $('button').on('click', function(){
+            $('p').toggleClass('change');
+        })
+    </script>
+</body>
+</html>
