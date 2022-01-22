@@ -17,11 +17,10 @@
             </div>
         @endif
 
-        <h1>
-            Rohman Beny Riyanto 19104060
-        </h1>
-
         <h4>Data Mahasiswa</h4>
+
+        <a href="{{ url('/mahasiswa/create') }}" class="btn btn-success">Tambah Data</a>
+        <br>
 
         <hr>
 

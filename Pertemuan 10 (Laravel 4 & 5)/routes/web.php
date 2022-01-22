@@ -15,7 +15,7 @@ use App\Http\Controllers\StudentController;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return redirect('mahasiswa');
 });
 
 
@@ -35,6 +35,6 @@ Route::get('/beranda', [myController::class, 'index']);
 Route::get('/mahasiswa', [StudentController::class, 'index']);
 Route::get('/mahasiswa/create', [StudentController::class, 'create']);
 Route::post('/mahasiswa/create', [StudentController::class, 'store']);
-Route::get('/mahasiswa/{$id}/edit', [StudentController::class, 'edit']);
-Route::put('/mahasiswa/{$id}/edit', [StudentController::class, 'update']);
-Route::delete('/mahasiswa/hapus/{$id}', [StudentController::class, 'destroy']);
+Route::get('/mahasiswa/{id}/edit', [StudentController::class, 'edit']);
+Route::put('/mahasiswa/{id}/edit', [StudentController::class, 'update']);
+Route::delete('/mahasiswa/hapus/{id}', [StudentController::class, 'destroy']);

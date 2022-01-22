@@ -17,9 +17,9 @@ class StudentController extends Controller
     {
         $data['gender'] = ["L", "P"];
         $data['departement'] = ["S1 RPL", "S1 Informatika", "S1 Sistem Informasi"];
-        return view('studentTambah', $data);
+        return view('StudentTambah', $data);
     }
-
+    
     public function store()
     {
         $student = new Student;
@@ -38,9 +38,8 @@ class StudentController extends Controller
         $data['student'] = Student::find($id);
         $data['gender'] = ["L", "P"];
         $data['departement'] = ["S1 RPL", "S1 Informatika", "S1 Sistem Informasi"];
-
-        // $data['student'] = Student::where('nim', $id) -> first();
-        return view('studentEdit', $data);
+        
+        return view('StudentEdit', $data);
     }
 
     public function update(Request $request, $id)
@@ -54,6 +53,7 @@ class StudentController extends Controller
         $student->save();
 
         return redirect() -> back() -> with('pesan', "Berhasil input data");
+
     }
 
     public function destroy($id)

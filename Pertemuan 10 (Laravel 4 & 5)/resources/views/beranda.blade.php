@@ -1,6 +1,7 @@
 <?php
     $array = [1,2,3,4,5];
     $nama = "Ups";
+    $nilai = 90;
 ?>
 
 <!DOCTYPE html>
@@ -21,7 +22,7 @@
         Halooo
     </p>
 
-    @if(1+1=2)
+    @if(1+1==2)
         <p>
             Halooo
         </p>
@@ -43,15 +44,15 @@
 
     <hr>
     <h1>Percabangan</h1>
-    @if (1+1 = 2)
+    @if (1+1 == 2)
         <p>
             {{'Jawaban Benar'}}
         </p>
     @endif
 
-    @if ($nama = "Ups")
+    @if ($nama == "Olan")
     <p>
-        {{"Nama Saya Ups"}}
+        {{"Nama Saya Narantyo"}}
     </p>
     @elseif ($nama = "Niall")
     <p>
